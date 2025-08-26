@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis App</title>
+</head>
+<body>
+    <h2>Sentiment Analysis</h2>
+    <form method="POST">
+        <textarea name="text" rows="4" cols="50" placeholder="Type your text here...">{{ user_text }}</textarea><br><br>
+        <input type="submit" value="Analyze">
+    </form>
+
+    {% if sentiment %}
+        <h3>Results:</h3>
+        <p><strong>Sentiment:</strong> {{ sentiment }}</p>
+        <p><strong>Polarity Score:</strong> {{ polarity }}</p>
+        <p><strong>Subjectivity Score:</strong> {{ subjectivity }}</p>
+    {% endif %}
+</body>
+</html>
