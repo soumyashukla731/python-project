@@ -1,0 +1,12 @@
+Matrix Operations Tool
+
+This project takes two matrices from the user and can add, subtract,
+multiply, transpose matrices, and find determinants.
+
+To run:-
+1. Open terminal or command prompt
+2. Go to the project folder
+3. Type: python matrix_tool.py
+4. Follow the instructions which is provided on screen
+
+Input each row by typing numbers whichis separated by spaces.
